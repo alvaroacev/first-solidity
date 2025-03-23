@@ -1,0 +1,130 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "index",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bytes32",
+								"name": "txHash",
+								"type": "bytes32"
+							},
+							{
+								"internalType": "uint256",
+								"name": "blockNumber",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bytes32",
+								"name": "blockHash",
+								"type": "bytes32"
+							},
+							{
+								"internalType": "address",
+								"name": "source",
+								"type": "address"
+							},
+							{
+								"internalType": "bytes32[]",
+								"name": "topics",
+								"type": "bytes32[]"
+							},
+							{
+								"internalType": "bytes",
+								"name": "data",
+								"type": "bytes"
+							}
+						],
+						"internalType": "struct Log",
+						"name": "log",
+						"type": "tuple"
+					},
+					{
+						"internalType": "bytes",
+						"name": "checkData",
+						"type": "bytes"
+					}
+				],
+				"name": "checkLog",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "upkeepNeeded",
+						"type": "bool"
+					},
+					{
+						"internalType": "bytes",
+						"name": "performData",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "performData",
+						"type": "bytes"
+					}
+				],
+				"name": "performUpkeep",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"LogTrigger.sol": "ILogAutomation"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"LogTrigger.sol": {
+			"keccak256": "0xffa1586299a6629ddfa1e25aff67c96b548f2990409ffa4147193aa1bb0e1890",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d67fa3879c444d37b2fa876f094a4d142cd3e836b10d1f57b8af2e8fcc73d70a",
+				"dweb:/ipfs/QmU3zSgZNKJL2rXba1yarwUwPVmmw8TAScuary8UJqgoE5"
+			]
+		}
+	},
+	"version": 1
+}

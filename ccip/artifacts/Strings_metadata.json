@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "String operations.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ccip/CrossChainPriceNFT_flattened.sol": "Strings"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ccip/CrossChainPriceNFT_flattened.sol": {
+			"keccak256": "0x151a72507bd0e94021921599dc31ac4231e12a479b607ffa726a393f9ac9a062",
+			"urls": [
+				"bzz-raw://6a063e6b7e67158a1a9779d9a480bc75aebaee1f7c7d0a7e2f1c52d11014a431",
+				"dweb:/ipfs/QmSWoTw36YceLr5DA3QTHTpXHJcK2QEoVb1NFykrUcC4gt"
+			]
+		}
+	},
+	"version": 1
+}

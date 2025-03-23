@@ -1,0 +1,156 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decimals",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "description",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint80",
+						"name": "_roundId",
+						"type": "uint80"
+					}
+				],
+				"name": "getRoundData",
+				"outputs": [
+					{
+						"internalType": "uint80",
+						"name": "roundId",
+						"type": "uint80"
+					},
+					{
+						"internalType": "int256",
+						"name": "answer",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startedAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "updatedAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint80",
+						"name": "answeredInRound",
+						"type": "uint80"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "latestRoundData",
+				"outputs": [
+					{
+						"internalType": "uint80",
+						"name": "roundId",
+						"type": "uint80"
+					},
+					{
+						"internalType": "int256",
+						"name": "answer",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startedAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "updatedAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint80",
+						"name": "answeredInRound",
+						"type": "uint80"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "version",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ccip/CrossChainPriceNFT_flattened.sol": "AggregatorV3Interface"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ccip/CrossChainPriceNFT_flattened.sol": {
+			"keccak256": "0x151a72507bd0e94021921599dc31ac4231e12a479b607ffa726a393f9ac9a062",
+			"urls": [
+				"bzz-raw://6a063e6b7e67158a1a9779d9a480bc75aebaee1f7c7d0a7e2f1c52d11014a431",
+				"dweb:/ipfs/QmSWoTw36YceLr5DA3QTHTpXHJcK2QEoVb1NFykrUcC4gt"
+			]
+		}
+	},
+	"version": 1
+}

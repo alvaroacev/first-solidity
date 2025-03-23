@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "EVM_EXTRA_ARGS_V1_TAG",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "EVM_EXTRA_ARGS_V2_TAG",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ccip/CrossSourceMinter_flattened.sol": "Client"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ccip/CrossSourceMinter_flattened.sol": {
+			"keccak256": "0xc0321d3bfd04497bfdbde1fe5417240060cc6b3feaa8ef912ff14805787692c4",
+			"urls": [
+				"bzz-raw://862312575e9576ccebaf6dceb7735d778dd1f9252682c04101cdb476f31b0d16",
+				"dweb:/ipfs/QmWVAJu7gCiTMquRVzeXQTmqpN7Njrg73TJHVtYNEq9rA1"
+			]
+		}
+	},
+	"version": 1
+}
